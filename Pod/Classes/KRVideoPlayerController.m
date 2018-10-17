@@ -289,6 +289,8 @@ static const CGFloat kVideoPlayerControllerAnimationTimeinterval = 0.3f;
     [self.videoControl setNeedsLayout];
     [self.videoControl layoutIfNeeded];
 }
-
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 @end
